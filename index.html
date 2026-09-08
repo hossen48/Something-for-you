@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#f7efe7" />
+  <meta name="description" content="A little birthday story for Adu, from Hossen." />
+  <title>For Adu — My Pakhi ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader" class="loader"><div class="loader-heart">♡</div><p>something tiny is being prepared...</p></div>
+  <div class="grain"></div>
+  <div class="floating-decor" aria-hidden="true"><span>♡</span><span>✦</span><span>♡</span><span>✿</span><span>✦</span></div>
+
+  <header class="topbar">
+    <div class="mini-logo">H <span>♡</span> A</div>
+    <button id="musicBtn" class="icon-btn" aria-label="Toggle music" aria-pressed="false">♫</button>
+    <audio id="bgMusic" preload="auto" loop playsinline src="assets/birthday-melody.wav"></audio>
+  </header>
+
+  <main>
+    <section id="hero" class="section hero reveal-section">
+      <div class="hero-cloud cloud-one"></div><div class="hero-cloud cloud-two"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">a little something from Hossen</p>
+        <h1>For <em>Adu</em>,<br><span>my Pakhi.</span></h1>
+        <p class="hero-sub">You probably thought I was going to give you a normal birthday wish.</p>
+        <button id="openBtn" class="primary-btn">Open your surprise <span>→</span></button>
+        <p class="tiny-note">turn your sound on ♡</p>
+      </div>
+      <div class="hero-art">
+        <div class="photo-frame tilt-left"><img src="assets/adu-1.jpg" alt="Adu smiling"></div>
+        <div class="photo-frame main-frame"><img src="assets/us-2.jpg" alt="Hossen and Adu together"></div>
+        <div class="doodle-heart">♡</div>
+      </div>
+    </section>
+
+    <section id="timeline" class="section timeline-section locked-section">
+      <div class="section-inner narrow">
+        <p class="eyebrow">before we became us</p>
+        <h2>Somehow, a friendship<br>became <em>everything.</em></h2>
+        <div class="timeline">
+          <div class="timeline-item"><span class="year">2012</span><div><h3>We met.</h3><p>Two people who had no idea what this story would become.</p></div></div>
+          <div class="timeline-item"><span class="year">then</span><div><h3>Friends → Best Friends</h3><p>Somewhere along the way, you became my person.</p></div></div>
+          <div class="timeline-item special"><span class="year">24.01.2026</span><div><h3>And then… us. ❤️</h3><p>The day our story got a new chapter.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section reasons locked-section">
+      <div class="section-inner">
+        <p class="eyebrow">tap around</p>
+        <h2>Why I love my <em>Pakhi</em></h2>
+        <p class="section-lead">Not twelve reasons. Just the little things that make you, you.</p>
+        <div class="reason-grid">
+          <button class="reason-card" data-title="Your smile" data-text="The kind of smile that can make a bad day feel a little less bad."><span>01</span><b>That smile</b><i>♡</i></button>
+          <button class="reason-card" data-title="Your hair" data-text="And yes… I still love the smell of your hair more than I probably should."><span>02</span><b>Your hair</b><i>✦</i></button>
+          <button class="reason-card" data-title="Your cooking" data-text="My personal five-star chef. Please don't let this compliment make you arrogant though. 😌"><span>03</span><b>Your cooking</b><i>♡</i></button>
+          <button class="reason-card" data-title="Your care" data-text="You notice the little things I don't even say. That means more to me than you know."><span>04</span><b>Your care</b><i>✦</i></button>
+          <button class="reason-card" data-title="Your time" data-text="Out of everything you could give me, your time is one of the things I treasure most."><span>05</span><b>Your time</b><i>♡</i></button>
+          <button class="reason-card" data-title="Your hand" data-text="Because when you hold my hand, somehow everything feels a little more okay."><span>06</span><b>Your hand</b><i>✦</i></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="funny" class="section funny locked-section">
+      <div class="section-inner split">
+        <div class="funny-copy">
+          <p class="eyebrow">things Hossen should probably not admit</p>
+          <h2>Okay, fine.<br>I have <em>confessions.</em></h2>
+          <div class="confession-box">
+            <span>CONFESSION #1</span>
+            <p>I tried to kiss you <strong>before we were even dating</strong>.</p>
+            <button id="confessBtn" class="secondary-btn">Please don't judge me 😭</button>
+          </div>
+          <div id="confessReveal" class="hidden-message">Yes, I know. 😭<br><small>I was apparently very confident for someone who hadn't even confessed yet.</small></div>
+        </div>
+        <div class="funny-photo"><img src="assets/adu-funny.jpg" loading="lazy" decoding="async" alt="Adu making a funny face"><div class="sticker">I don't care 😎</div></div>
+      </div>
+    </section>
+
+    <section id="days" class="section memories locked-section">
+      <div class="section-inner">
+        <p class="eyebrow">my favorite days</p>
+        <h2>Honestly? Almost every day with you.</h2>
+        <p class="section-lead">But if you make me choose… these ones have a special place.</p>
+        <div class="memory-grid">
+          <article class="memory-card"><div class="memory-img"><img src="assets/kiss-night.jpg" loading="lazy" decoding="async" alt="Hossen and Adu together on the night before Eid"></div><div class="memory-body"><span>🌙 THE NIGHT BEFORE EID</span><h3>Our first kiss.</h3><p>I don't think I'll ever forget that night.</p></div></article>
+          <article class="memory-card featured"><div class="memory-img"><img src="assets/birthday.jpg" loading="lazy" decoding="async" alt="Hossen and Adu on Hossen's birthday"></div><div class="memory-body"><span>🎂 10 AUGUST</span><h3>My birthday.</h3><p>You came all the way from home to my varsity, alone. You brought me a One Piece cake, gifts, and somehow made my birthday feel even more special.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section locked-section">
+      <div class="section-inner">
+        <p class="eyebrow">little pieces of you</p>
+        <h2>A tiny gallery of <em>us.</em></h2>
+        <div class="gallery">
+          <figure class="g tall"><img src="assets/adu-2.jpg" loading="lazy" decoding="async" alt="Adu"><figcaption>my beautiful girl ♡</figcaption></figure>
+          <figure class="g wide"><img src="assets/us-4.jpg" loading="lazy" decoding="async" alt="Hossen and Adu"><figcaption>just us, being us.</figcaption></figure>
+          <figure class="g"><img src="assets/adu-1.jpg" alt="Adu smiling"><figcaption>that smile.</figcaption></figure>
+          <figure class="g wide"><img src="assets/us-2.jpg" loading="lazy" decoding="async" alt="Hossen and Adu"><figcaption>one of my favorite views.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="battle" class="section battle locked-section">
+      <div class="section-inner narrow center">
+        <p class="eyebrow">very serious research</p>
+        <h2>Who loves who <em>more?</em></h2>
+        <p class="section-lead">Choose carefully. There are consequences. 😌</p>
+        <div class="battle-buttons"><button class="choice" data-choice="hossen">Hossen ❤️</button><button class="choice" data-choice="adu">Adu ❤️</button></div>
+        <div id="battleResult" class="battle-result"></div>
+      </div>
+    </section>
+
+    <section id="letter" class="section letter locked-section">
+      <div class="letter-paper">
+        <div class="letter-flower">✿</div>
+        <p class="eyebrow">for you, Adu</p>
+        <h2>A letter I mean<br>with my whole heart.</h2>
+        <div class="letter-text">
+          <p>Dear Adu,</p>
+          <p>I love you more than I could ever properly explain.</p>
+          <p>You are everything I could ever want, and somehow, after knowing you for so many years, I still feel lucky that I get to call you mine.</p>
+          <p><strong>Thank you for choosing me.</strong></p>
+          <p>Thank you for the care you put into my life. Thank you for your time. Thank you for holding my hand when I need it. Thank you for forgiving me when I don't deserve it.</p>
+          <p>You became my best friend before you became my girlfriend, and maybe that's why loving you feels so natural.</p>
+          <p>I don't just want the beautiful days with you. I want the ordinary days too. Random food trips. Stupid arguments. Your funny faces. Your cooking. Your hand in mine.</p>
+          <p>I want all of it.</p>
+          <p class="big-love">I love you, Adu.</p>
+          <p>And I hope that one day, when we look back at this little website, we'll laugh because we actually got everything we dreamed about.</p>
+          <p>A home. Two little kids. A happy life together. And maybe… Japan. 🇯🇵</p>
+          <p><strong>I'll choose you again and again.</strong></p>
+          <p class="signature">— Hossen ♡</p>
+        </div>
+        <button id="wishBtn" class="primary-btn">There is one last thing… →</button>
+      </div>
+    </section>
+
+    <section id="ending" class="section ending locked-section">
+      <div class="stars"></div>
+      <div class="ending-content">
+        <p class="eyebrow">one last thing</p>
+        <h2>I don't want a perfect life.</h2>
+        <p class="ending-line">I just want my life to have <em>you</em> in it.</p>
+        <div class="future-scene"><div class="moon">☾</div><div class="house">⌂</div><div class="japan">日本</div><div class="family">♡ &nbsp; ♡</div></div>
+        <p class="final-wish">Happy Birthday, my Pakhi. ❤️</p>
+        <p class="from">Always,<br>Hossen</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true"><div class="modal-card"><button id="modalClose" class="modal-close">×</button><span id="modalIcon">♡</span><h3 id="modalTitle"></h3><p id="modalText"></p></div></div>
+  <div id="toast" class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
